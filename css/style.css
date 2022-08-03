@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Lato:ital,wght@1,300&family=Mouse+Memoirs&family=Square+Peg&display=swap');
+*{margin: 0; padding: 0; box-sizing: border-box;}
+body{font-family: 'Kanit', sans-serif; text-align: center;}
+.intro-image {background-image: url('../img/1.jpg'); height: 600px; background-size: cover; display: flex; align-items: center; justify-content: center; background-position: top; background-attachment: fixed;}
+.intro-image__text a {
+    display: inline-block;
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #d0d9de;
+    background-color: #1e1c21ab;
+    border: #d0d9de 2px solid;
+    padding: 2rem;
+    transition: all 0.1s ease-in-out;
+    animation-name: intro; animation-duration:  4s; animation-timing-function: ease-in-out
+}
+@keyframes intro {0% {transform: translateY(-1000px); opacity:0} 80% {transform: translateY(50px)} 100% {transform: translateX(0); opacity: 1;}}
+
+
+
+.intro-text {background-color: rgb(75, 62, 53); 
+    color: antiquewhite; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    height: 250px; 
+    padding: 0 15rem;
+    clip-path: polygon(80% 7%, 100% 0, 100% 94%, 41% 87%, 0 79%, 0% 60%, 0 0);margin-top: -100px}
+
+.intro-text__textbox h3{font-size: 2rem; text-transform: uppercase; margin-bottom: 1rem  }
+
+.packaging-image {height: 400px; background-image: url('../img/2.jpg'); 
+    background-size: cover; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    background-position: middle; 
+    background-attachment: fixed; 
+    margin-top: -100px}
+.packaging-image__text a {  display: inline-block;
+    font-size: 2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: antiquewhite;
+    background-color: #1e1c21a1;
+    border: #d0d9de2f 2px solid;
+    padding: 2rem;
+    transition: all 0.5s ease-in-out;
+    text-decoration: none;}
+.packaging-image__text a:hover{ transform: scale(1.1);}
+
+
+.packaging-text {background-color: rgb(102, 64, 33); 
+    color: rgb(235, 230, 224); 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    height: 350px; 
+    padding: 0 15rem;
+    clip-path: polygon(80% 7%, 100% 0, 100% 94%, 41% 87%, 0 92%, 0% 60%, 0 0);
+    margin-top: -50px
+}
+.packaging-text h3 {font-size: 2rem; 
+    text-transform: uppercase; 
+    margin-bottom: 1rem}
+.packaging-text p {font-size: 1rem;}
+
+
+.tutorials-image {height: 400px; background-image: url('../img/3.jpg'); 
+    background-size: cover; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    background-position: middle; 
+    background-attachment: fixed; 
+    margin-top: -100px}
+
+.btn-container {text-align: center;}
+.btn{ display: inline-block;
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #d0d9de;
+    background-color: #1e1c21ab;
+    border: #d0d9de 2px solid;
+    padding: 2rem;
+    transition: all 0.1s ease-in-out;}
+.btn:hover {box-shadow:  0 0.5rem rgba(0, 0, 0, 0.11);background-color: rgba(0, 0, 0, 0.795); transform: translateY(-5px);}
+.btn:active {box-shadow:  0 0.5rem 1rem rgba(0, 0, 0, 0.226); transform: translateY(5px) } 
+
+.footer {height: 500px; background-color: rgb(29, 21, 12);color: bisque;padding-top: 2rem; font-size: 2rem;}
+.footer ul li {display: inline; margin: 1rem;}
+.footer ul li a {color: #d0d9de; text-decoration: none;}
+.footer ul li:hover, .footer ul li a :hover { color: rgb(4, 193, 240); transform: scale(1.5) } 
